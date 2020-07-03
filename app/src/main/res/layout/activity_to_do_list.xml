@@ -20,7 +20,7 @@
             android:layout_margin="10dp"
             android:text="@string/tasks"
             android:textAlignment="center"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"
             android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="MissingConstraints" />
