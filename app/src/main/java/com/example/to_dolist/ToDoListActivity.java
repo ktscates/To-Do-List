@@ -33,7 +33,7 @@ public class ToDoListActivity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.list_view);
 
-        String[] taskList = {"Shooping", "Cooking"};
+        String[] taskList = {};
         tasks = new ArrayList<>(Arrays.asList(taskList));
 
         taskAdapter = new ArrayAdapter(this, R.layout.simple_white_list_1, tasks);
