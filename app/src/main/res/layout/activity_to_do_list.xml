@@ -25,15 +25,14 @@
             android:textStyle="bold"
             tools:ignore="MissingConstraints" />
 
-        <ListView
-            android:id="@+id/list_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/title"
-            android:layout_margin="5dp"
-            tools:ignore="MissingConstraints" />
+    <!--    </LinearLayout>-->
 
-<!--    </LinearLayout>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        tools:listitem="@layout/item_task_list" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

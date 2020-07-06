@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:autofillHints="@string/add_new_task" />
+        android:autofillHints="@string/add_new_task"
+        tools:ignore="LabelFor" />
 
 <!--    <LinearLayout-->
 <!--        android:id="@+id/btn_linear"-->
